@@ -1,9 +1,10 @@
 <template>
-  <q-card class="w-[210px]">
+  <q-card class="w-[210px] h-[300px] hover:scale-105 transition-all">
     <q-img
       :src="thumbnail"
       width="210px"
-      height="auto"
+      height="120px"
+      fit="cover"
       class="cursor-pointer"
       @click="goToDetail(endpoint)"
     >
